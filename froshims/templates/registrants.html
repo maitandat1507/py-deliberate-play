@@ -8,10 +8,10 @@
       <th>Sport</th>
     </thead>
     <tbody>
-      {% for name in registrants %}
+      {% for registrant in registrants %}
       <tr>
-        <td>{{name}}</td>
-        <td>{{registrants[name]}}</td>
+        <td>{{registrant.name}}</td>
+        <td>{{registrant.sport}}</td>
       </tr>
       {% endfor %}
     </tbody>

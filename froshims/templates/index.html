@@ -8,7 +8,7 @@
     <select name="sport">
       <option disabled selected value="Sport">Sport</option>
       {% for sport in sports %}
-        <option value="{{ sport }}">{{ sport }}</option>
+        <option name="sport" value="{{ sport }}">{{ sport }}</option>
       {% endfor %}
     </select>
     <input type="submit" value="Register">

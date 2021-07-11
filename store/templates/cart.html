@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+
+{% block body %}
+  <h1>Your cart:</h1>
+
+  <ol>
+    {% for item in items %}
+    <li>{{ item.title }}</li>
+    {% endfor %}
+  </ol>
+
+  <a href="/">Back to shopping</a>
+{% endblock %}

@@ -13,3 +13,6 @@ FLASK_APP=application.py
 
 2. install python-dotenv package
 ```python3 -m pip install python-dotenv```
+
+3. cd to folder where place the `application.py`
+```python3 -m flask run```

@@ -2,7 +2,7 @@
 cs50 - deliberated records
 
 ## db
-cs50_flask
+using portable SQLite file (<anyname.db>)
 
 ## installation
 1. create `.env` file and put below contents:
